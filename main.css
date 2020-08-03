@@ -1,0 +1,19 @@
+.maincontent {
+    width: 100%;
+    height: auto;
+    padding: 20px 10%;
+    border-bottom: 2px solid #cfcfcf;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.maincontent .content {
+    display: flex;
+    flex-direction: row;
+}
+
+.maincontent .content .text {
+    text-align: right;
+}
+
+
