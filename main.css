@@ -5,6 +5,7 @@
     border-bottom: 2px solid #cfcfcf;
     box-sizing: border-box;
     background-color: white;
+    background-color: azure;
 }
 
 .maincontent .content {
@@ -13,7 +14,40 @@
 }
 
 .maincontent .content .text {
+    width: 60%;
     text-align: right;
+    box-sizing: border-box;
+    
+}
+.maincontent .content .image {
+    width: 40%;
+    
 }
 
+.maincontent .content .text h2 {
+    font-family: Arial, sans-serif;
+    color: beige;
+    text-shadow: 2px 2px aqua;
+    cursor: pointer;
+}
 
+.maincontent .content .text p {
+    font-family: Arial, sans-serif;
+    color: brown;
+    text-shadow: 2px 2px aqua;
+    font-size: 18px;
+    
+}
+
+.maincontent .content .text p.link {
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.maincontent .content .text h2:hover {
+    color: yellow;
+    cursor: pointer;
+}
