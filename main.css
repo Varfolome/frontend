@@ -21,6 +21,7 @@
 }
 .maincontent .content .image {
     width: 40%;
+    box-sizing: border-box;
     
 }
 
