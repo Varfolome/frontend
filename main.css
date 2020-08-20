@@ -8,5 +8,49 @@
 /*vgrom*/
 
 /*kaen*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(240, 132, 45);
+    height: 100px;
+    padding: 0 5%;
+}
+
+header nav{
+    width: 50%;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+header nav ul li{
+    padding: 41px 0;
+    width: 20%;
+}
+
+header nav ul li:hover{
+    background-color: rgb(100, 96, 98);
+}
+
+header nav ul li:hover, header nav ul li:hover a{
+    color: white;
+}
+
+header nav ul li a{
+   text-decoration: none;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color:black;
+   text-transform: uppercase;
+   display: flex;
+   justify-content: center;
+}
 
 /*kaen*/
