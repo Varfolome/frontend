@@ -23,6 +23,21 @@ body {
     width: 50%;
 }
 
+.forms .forms-wrapper {
+    width:100%;
+    box-sizing: border-box;
+    padding: 20px 10%;
+}
+
+.forms .forms-wrapper .contact-form {
+    width:100%;
+    box-sizing: border-box;
+}
+
+.forms .forms-wrapper .contact-form form {
+    align-content: center;
+}
+
 .description .carousel-text-wrapper {
     width: 100%;
     display: flex;
@@ -75,7 +90,12 @@ body {
     
 }
 
-p {
+p.neartext {
+    color: white;
+    text-shadow: 2px 4px gray;
+}
+
+.forms .contact-form .form-label {
     color: white;
 }
 
