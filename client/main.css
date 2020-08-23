@@ -14,7 +14,7 @@ body {
 /*vgrom*/
 
 .main {
-    background-color: black;
+    background-color: gray;
     display: flex;
     flex-direction: row;
 }
@@ -95,6 +95,7 @@ body {
     width: 40%;
     box-sizing: border-box;
     text-align: right;
+    padding-left: 3%;
 
 }
 
@@ -107,6 +108,8 @@ p.neartext {
   width: 100%;
   text-align: center;
   padding-top: 20px;
+  box-sizing: border-box;
+  padding-left: 5%;
 }
 
 .next-text .text {
