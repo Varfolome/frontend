@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<!--kaen+vgrom-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="/css_skeleton/normalize.css">
+        <link rel="stylesheet" href="/css_skeleton/skeleton.css">
+        <title>Mere</title>
+    </head>
+    <body>
+        <header class ="header">
+            <!--kaen-->
+            <nav class = "navigation">
+                <!--Нужно сделать меню из пяти пунктов. Две ссылки указывают на Главную и на Галерею.
+                    Остальные три - это якоря. Новости, Карта,-->
+
+            </nav>
+            <div class = "contact">
+            <!--Контакты - якорь-ссылка на футер-->
+            </div>
+        </header>
+        <main class ="main">
+            <!--vgrom-->
+            <!--main-content-->
+            <div class = "description">
+
+                <!--Main descriptive module-->
+
+                <div class = "carousel-text-wrapper">
+                    <div class = "carousel-wrapper">
+
+                        <!--carousel with photos-->
+
+                        <div class = "carousel-animate" id ="animate">
+                            <ul class = "carousel" id ="carousel">
+                                <li class = "carousel-item"><img class = "image" src="/images/firstimage.jpg"></li>
+                                <li class = "carousel-item"><img class = "image" src="/images/secondimage.jpg"></li>
+                                <li class = "carousel-item"><img class = "image" src="/images/thirdimage.jpg"></li>
+                            </ul>
+                        </div>
+
+                        <!--carousel with photos-->
+
+                    </div>
+                    <div class = "text-wrapper">
+
+                        <!--text near carousel-->
+
+                        <p class ="neartext">Les supermarchés «MERE» est un projet de réseau commercial russe «SVETOFOR» (le feu tricolore).
+«SVETOFOR», ainsi que «MERE» est un réseau de discounters  avec autoservice et réduction de prix colossale. En général le prix d'un bien est 10-20% plus bas, que le prix moyen de ce même bien sur le marché. Notre réseau a été fondé en 2009. Aujourd'hui on dispose de plus de 1000 magasins partout dans le monde (Russie, Biélorussie, Ukraine, Kazakhstan, Allemagne, Pologne, Roumanie, Grèce)</p>
+
+                    </div>
+                </div>
+                <div class = "next-text">
+                    <!--descriptive text after carousel-->
+                    <p class = "text">Les supermarchés «MERE» est un projet de réseau commercial russe «SVETOFOR» (le feu tricolore).
+«SVETOFOR», ainsi que «MERE» est un réseau de discounters  avec autoservice et réduction de prix colossale. En général le prix d'un bien est 10-20% plus bas, que le prix moyen de ce même bien sur le marché. Notre réseau a été fondé en 2009. Aujourd'hui on dispose de plus de 1000 magasins partout dans le monde (Russie, Biélorussie, Ukraine, Kazakhstan, Allemagne, Pologne, Roumanie, Grèce). Le but de «Mere» est de permettre aux acheteurs d'accéder aux produits moins chers dans leur région. Ça devient possible, grâce à notre approche, présupposant le loyer minimal et optimisation d'aménagement commercial. Nos supermarchés ne dispose pas d'étagères, ni de guichets, ni d'autres formes de «prestige». Toute la production est présentée sur les palettes, au sol. Néanmoins, cette approche permet de répondre aux besoins des clients, qui, en vue de nombreuses crises économiques, essayent d'acheter les produits moins chers pour l'utilisation quotidienne. </p>
+                </div>
+            </div>
+            <div class = "forms">
+                <div class = "forms-wrapper">
+                    <div class = "contact-form-wrapper">
+                        <form class = "contact-form-">
+                            <!--inputs-->
+                        <input type = "text" name="Last-name" id ="Last-name">
+                        <label for="Last-name"><span class = "form-label">Nom</span></label><br><br>
+
+                        <input type = "text" name = "First-name" id = "First-name">
+                        <label for="First-name"><span class = "form-label">Prenom</span></label><br><br>
+
+                        <input type = "text" name = "mail" id = "mail">
+                        <label for="mail"><span class = "form-label">mail</span></label><br><br>
+
+                        <button class = "button-primary" id = "submit-contact-form">Demande de contact</button>
+                            <!--inputs-->
+
+
+                        </form>
+                    </div>
+                    <hr>
+                    <br>
+                    <div class = "faq-form-wrapper">
+                      <form class = "faq-form">
+                        <textarea name="question" rows="10" cols="60"></textarea>
+                        <button class = "button-primary" id ="submit-question">Votre question</button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <!--kaen-->
+            <!--Standard footer with contacts and copyright-->
+        </footer>
+
+        <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="/scripts/carousel.js"></script>
+        <script type="text/javascript" src="/scripts/client.js"></script>
+    </body>
+</html>
