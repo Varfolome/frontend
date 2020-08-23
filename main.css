@@ -15,42 +15,45 @@
 }
 
 header{
-    background-color: rgb(240, 132, 45);
-    height: 100px;
+    background: rgb(255, 122, 45);
+    width: 100%;
     padding: 0 5%;
-}
-
-header nav{
-    width: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 header nav ul{
-    list-style-type: none;
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
+    justify-content: flex-start;
 }
 
 header nav ul li{
-    padding: 41px 0;
-    width: 20%;
+    display: block;
+    position: relative;
+}
+header nav ul a{
+    display: block;
+    padding: 20px 15px;
+    color: wheat;
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
 }
 
-header nav ul li:hover{
-    background-color: rgb(100, 96, 98);
+header nav ul a:hover{
+    background-color: indianred;
 }
 
-header nav ul li:hover, header nav ul li:hover a{
-    color: white;
+header nav ul a:hover, header nav ul li:hover a{
+    color: wheat;
 }
 
-header nav ul li a{
-   text-decoration: none;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   color:black;
-   text-transform: uppercase;
-   display: flex;
-   justify-content: center;
+main{
+    padding-top: 90px;
+    min-height: 1200px;
 }
 
 /*kaen*/
