@@ -6,7 +6,7 @@ body {
 }
 
 .form-label {
-    color: white;
+    color: yellow;
 }
 
 /*commun*/
@@ -24,17 +24,19 @@ body {
 }
 
 .forms {
-    width: 50%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    top: 300px;
 }
 
 .forms .forms-wrapper {
-    width:100%;
-    box-sizing: border-box;
-    padding: 20px 10%;
+    width:70%;
+    /*box-sizing: border-box;*/
+    padding: 10px 30%;
 }
 
 .forms .forms-wrapper .contact-form-wrapper {
-    padding: 30px 20%;
+    padding: 6px 20%;
     /*box-sizing: border-box;*/
 }
 
