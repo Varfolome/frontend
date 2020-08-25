@@ -4,7 +4,7 @@
 
 $(document).ready(function(){
 
-    const width = 350;
+    const width = 650;
     let current = 1;
     const animationSpeed = 2000;
     const pause = 5500;
