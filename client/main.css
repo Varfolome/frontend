@@ -45,9 +45,26 @@ body {
 }
 
 .forms .forms-wrapper {
-    width:70%;
+    width:100%;
     box-sizing: border-box;
-    padding: 10px 30%;
+    padding-left: 27%;
+}
+
+.forms .close {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.forms .loading {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.forms .loading img {
+  width: 40%;
+  height: auto;
 }
 
 .forms .forms-wrapper .contact-form-wrapper {
