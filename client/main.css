@@ -23,17 +23,35 @@ body {
     color: yellow;
 }
 
+@font-face {
+  font-family: Ustroke-Regular;
+  src: url("./fonts/Quote.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "FlowExt";
+  src: url("./fonts/workDescription.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
 /*commun*/
 
 /*vgrom*/
 
 .main {
-    background-color: gray;
+    width: 100%;
 }
 
 
 .description {
     width: 100%;
+    background-image: url("./images/back.jpg");
+    background-size: cover;
+    background-blend-mode: color-dodge;
+    opacity: 0.95;
 
 }
 
@@ -134,20 +152,21 @@ body {
 p.neartext {
     font-size: 16px;
     color: white;
-    text-shadow: 3px 2px red;
+    /*text-shadow: 3px 2px red;*/
 }
 
-.next-text {
+.quote {
   width: 100%;
-  text-align: center;
+  text-align: right;
   padding-top: 20px;
   box-sizing: border-box;
   padding-left: 5%;
 }
 
-.next-text .text {
-  color: yellow;
-  font-size: 20px;
+.quote .text {
+  color: rgb(165,30,34);
+  font-size: 50px;
+  font-family: Ustroke-Regular;
 }
 
 
